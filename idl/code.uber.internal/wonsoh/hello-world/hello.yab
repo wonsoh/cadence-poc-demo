@@ -1,0 +1,8 @@
+# Learn more about yab templates by running: man yab
+service: hello-world
+method: HelloWorld::hello
+peer: http://localhost:6708/
+thrift: hello_world.thrift
+request:
+  request:
+    name: ${name:John Doe}

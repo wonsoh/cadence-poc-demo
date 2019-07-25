@@ -1,0 +1,7 @@
+# Having a staging service name is necessary to split auth, metrics, RPCs, etc.
+service:
+  name: "${UDEPLOY_SERVICE_NAME:hello-world}"
+
+sentry:
+  dsn: "http://uber:uber@localhost:16921/${UDEPLOY_SERVICE_NAME:hello-world}"
+  level: WARN
