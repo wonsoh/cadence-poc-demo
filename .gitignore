@@ -1,0 +1,17 @@
+*.out
+*.test
+*.xml
+*.swp
+.idea/
+.vscode/
+*.iml
+*.cov
+*.html
+.tmp/
+/hello-world
+config/secrets.yaml
+.DS_Store
+.catalyst-build/
+logs/
+vendor/
+.gen/
