@@ -1,0 +1,9 @@
+# Learn more about yab templates by running: man yab
+service: hello-world
+method: HelloWorld::get
+peer: http://localhost:6708/
+thrift: hello_world.thrift
+request:
+  request:
+    entityID: ${id}
+

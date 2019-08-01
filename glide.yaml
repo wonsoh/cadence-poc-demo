@@ -1,8 +1,12 @@
 # This glide manifest is @generated and kept in sync by dep for backwards compatibility.
 # It is not a full glide manifest and will not work with traditional glide commands.
 import:
+- package: code.uber.internal/devexp/cadencefx.git
+  version: ~0.8.2
 - package: code.uber.internal/go/configfx.git
   version: ^1.7.0
+- package: code.uber.internal/go/dosafx.git
+  version: ^3.0.2
 - package: code.uber.internal/go/uberfx.git
   version: ^1.0.0
 - package: code.uber.internal/go/yarpcfx.git
@@ -11,6 +15,8 @@ import:
   version: ^1.0.0
 - package: github.com/stretchr/testify
   version: ^1.2.2
+- package: github.com/uber-go/dosa
+  version: ^3.4.7
 - package: go.uber.org/fx
   version: ^1.0.0
 - package: go.uber.org/thriftrw

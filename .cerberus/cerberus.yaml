@@ -1,0 +1,3 @@
+http-services: flipr,wonkamaster
+tchannel-services: dosa-gateway,cadence-frontend-staging
+zone: phx2

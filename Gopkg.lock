@@ -2,6 +2,13 @@
 
 
 [[projects]]
+  name = "code.uber.internal/devexp/cadencefx.git"
+  packages = ["."]
+  revision = "2d28b93df26aab23e9949cab6a2dee1104fef822"
+  sourceUrl = "ssh://gitolite@code.uber.internal/devexp/cadencefx.git"
+  version = "v0.8.2"
+
+[[projects]]
   name = "code.uber.internal/engsec/galileo-go.git"
   packages = [
     ".",
@@ -56,6 +63,13 @@
   revision = "cb5af218d152b402b7cdf78ff0e1849f78d448ef"
   sourceUrl = "ssh://gitolite@code.uber.internal/go/debugfx.git"
   version = "v1.6.0"
+
+[[projects]]
+  name = "code.uber.internal/go/dosafx.git"
+  packages = ["."]
+  revision = "b1ec47ab162840c34f2e52cc23a503dbff188135"
+  sourceUrl = "ssh://gitolite@code.uber.internal/go/dosafx.git"
+  version = "v3.0.2"
 
 [[projects]]
   name = "code.uber.internal/go/envfx.git"
@@ -279,6 +293,13 @@
   version = "v1.1.1"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/facebookgo/clock"
+  packages = ["."]
+  revision = "600d898af40aa09a7a93ecb9265d87b0504b6f03"
+  sourceUrl = "ssh://gitolite@code.uber.internal/github/facebookgo/clock"
+
+[[projects]]
   name = "github.com/fatih/structtag"
   packages = ["."]
   revision = "76ae1d6d2117609598c7d4e8f3e938145f204e8f"
@@ -298,6 +319,13 @@
   revision = "f04e7487e9a6b9d9837d52743fb5f40576c56411"
   sourceUrl = "ssh://gitolite@code.uber.internal/github/getsentry/raven-go"
   version = "v0.2.0"
+
+[[projects]]
+  name = "github.com/gofrs/uuid"
+  packages = ["."]
+  revision = "6b08a5c5172ba18946672b49749cde22873dd7c2"
+  sourceUrl = "ssh://gitolite@code.uber.internal/github/gofrs/uuid"
+  version = "v3.2.0"
 
 [[projects]]
   name = "github.com/gogo/protobuf"
@@ -362,6 +390,13 @@
   version = "v1.3.1"
 
 [[projects]]
+  name = "github.com/google/uuid"
+  packages = ["."]
+  revision = "0cd6bf5da1e1c83f8b45653022c74f71af0538a4"
+  sourceUrl = "ssh://gitolite@code.uber.internal/github/google/uuid"
+  version = "v1.1.1"
+
+[[projects]]
   name = "github.com/hashicorp/golang-lru"
   packages = [
     ".",
@@ -406,6 +441,13 @@
   revision = "1949ddbfd147afd4d964a9f00b24eb291e0e7c38"
   sourceUrl = "ssh://gitolite@code.uber.internal/github/opentracing/opentracing-go"
   version = "v1.0.2"
+
+[[projects]]
+  name = "github.com/pborman/uuid"
+  packages = ["."]
+  revision = "adf5a7427709b9deb95d29d3fa8a2bf9cfd388f1"
+  sourceUrl = "ssh://gitolite@code.uber.internal/github/pborman/uuid"
+  version = "v1.2"
 
 [[projects]]
   name = "github.com/pkg/errors"
@@ -464,6 +506,13 @@
   sourceUrl = "ssh://gitolite@code.uber.internal/github/prometheus/procfs"
 
 [[projects]]
+  name = "github.com/robfig/cron"
+  packages = ["."]
+  revision = "b41be1df696709bb6395fe435af20370037c0b4c"
+  sourceUrl = "ssh://gitolite@code.uber.internal/github/robfig/cron"
+  version = "v1.2.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/samuel/go-thrift"
   packages = ["parser"]
@@ -478,9 +527,17 @@
   version = "v1.0.0"
 
 [[projects]]
+  name = "github.com/stretchr/objx"
+  packages = ["."]
+  revision = "477a77ecc69700c7cdeb1fa9e129548e1c1c393c"
+  sourceUrl = "ssh://gitolite@code.uber.internal/github/stretchr/objx"
+  version = "v0.1.1"
+
+[[projects]]
   name = "github.com/stretchr/testify"
   packages = [
     "assert",
+    "mock",
     "require"
   ]
   revision = "ffdc059bfe9ce6a4e144ba849dbedead332c6053"
@@ -493,6 +550,16 @@
   revision = "1ea20fb1cbb1cc08cbd0d913a96dead89aa18289"
   sourceUrl = "ssh://gitolite@code.uber.internal/github/uber-go/atomic"
   version = "v1.3.2"
+
+[[projects]]
+  name = "github.com/uber-go/dosa"
+  packages = [
+    ".",
+    "connectors/yarpc"
+  ]
+  revision = "b297b71b7da0d2fe4a094baa250a9ac93a9622ce"
+  sourceUrl = "ssh://gitolite@code.uber.internal/github/uber-go/dosa"
+  version = "v3.4.7"
 
 [[projects]]
   name = "github.com/uber-go/mapdecode"
@@ -516,6 +583,16 @@
   revision = "e9a67ec1839e1f6e5133dbcca2f57bec12fdeda2"
   sourceUrl = "ssh://gitolite@code.uber.internal/github/uber-go/tally"
   version = "v3.3.8"
+
+[[projects]]
+  name = "github.com/uber/dosa-idl"
+  packages = [
+    ".gen/dosa",
+    ".gen/dosa/dosaclient"
+  ]
+  revision = "097e20c83d25cc733a977da96a6894cc9434fb99"
+  sourceUrl = "ssh://gitolite@code.uber.internal/github/uber/dosa-idl"
+  version = "3.2.1"
 
 [[projects]]
   name = "github.com/uber/jaeger-client-go"
@@ -586,6 +663,28 @@
   revision = "946a8391268aea0a60a86403988ff3ab4b604a83"
   sourceUrl = "https://github.com/uber-go/automaxprocs"
   version = "v1.2.0"
+
+[[projects]]
+  name = "go.uber.org/cadence"
+  packages = [
+    ".gen/go/cadence",
+    ".gen/go/cadence/workflowserviceclient",
+    ".gen/go/cadence/workflowservicetest",
+    ".gen/go/shared",
+    "client",
+    "encoded",
+    "internal",
+    "internal/common",
+    "internal/common/backoff",
+    "internal/common/cache",
+    "internal/common/metrics",
+    "internal/common/util",
+    "worker",
+    "workflow"
+  ]
+  revision = "9ae0decd16c9e16329e50b3fa2b0ea65bcb0f161"
+  sourceUrl = "https://github.com/uber-go/cadence-client"
+  version = "v0.8.3"
 
 [[projects]]
   name = "go.uber.org/config"
@@ -828,6 +927,13 @@
 
 [[projects]]
   branch = "master"
+  name = "golang.org/x/time"
+  packages = ["rate"]
+  revision = "9d24e82272b4f38b78bc8cff74fa936d31ccd8ef"
+  sourceUrl = "ssh://gitolite@code.uber.internal/googlesource/time"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/tools"
   packages = [
     "cmd/stringer",
@@ -940,7 +1046,7 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  dep-version = "v1.5.0-UBER"
-  inputs-digest = "10818251a5c7754d995a7124c1828eef8b6828b401450482b3f5c6824f583791"
+  dep-version = "v1.5.1-UBER"
+  inputs-digest = "b62c43b5cdc6a80a213c540728ff98f085407faedc24fc32b00aefd3e00ceca5"
   solver-name = "gps-cdcl"
   solver-version = 1

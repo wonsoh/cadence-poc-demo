@@ -1,0 +1,11 @@
+# Learn more about yab templates by running: man yab
+service: hello-world
+method: HelloWorld::create
+peer: http://localhost:6708/
+thrift: hello_world.thrift
+request:
+  request:
+    entity:
+      name: ${name}
+#      email: ${email:null}
+#      phone: ${phone:null}

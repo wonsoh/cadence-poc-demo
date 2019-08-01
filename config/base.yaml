@@ -8,8 +8,22 @@ yarpc:
       address: ":${UBER_PORT_TCHANNEL:6707}"
     http:
       address: ":${UBER_PORT_HTTP:6708}"
+  outbounds:
+    cadence:
+      service: cadence-frontend
+      tchannel:
+        peer: "127.0.0.1:7933"
+
 
 galileo:
   # As of mid-2018, onboarding to the Galileo ecosystem is paused. See
   # T1860579 for details.
   enabled: false
+
+dosa:
+  scope: wonsohsandbox201907 # change as necessary
+
+cadence:
+  workers:
+  - domain: samples-domain
+    task_list: read-write-tasks

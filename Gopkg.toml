@@ -73,3 +73,15 @@ ignored = ["code.uber.internal/wonsoh/hello-world/.tmp"]
 [[override]]
   name = "golang.org/x/tools"
   source = "golang.org/x/tools"
+
+[[constraint]]
+  name = "github.com/uber-go/dosa"
+  version = "3.4.7"
+
+[[constraint]]
+  name = "code.uber.internal/go/dosafx.git"
+  version = "3.0.2"
+
+[[constraint]]
+  name = "code.uber.internal/devexp/cadencefx.git"
+  version = "0.8.2"
